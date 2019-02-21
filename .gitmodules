@@ -1,0 +1,6 @@
+[submodule "server"]
+	path = server
+	url = git@github.com:Foxer-360/auth-server.git
+[submodule "dashboard"]
+	path = dashboard
+	url = git@github.com:Foxer-360/auth-dashboard.git
