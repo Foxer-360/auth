@@ -1,4 +1,10 @@
 {
+  "name": "@foxer360/auth",
+  "version": "0.1.0",
+  "description": "Authorization system for the Foxer360 system.",
+  "repository": "git@github.com:Foxer-360/auth.git",
+  "author": "Filip Suchý <nevim42@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "deploy": "yarn workspace @foxer360/auth-server run deploy",
     "docker": "sudo docker-compose up --force-recreate -d",
