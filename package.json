@@ -6,6 +6,8 @@
   "author": "Filip Suchý <nevim42@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "add:dashboard": "yarn workspace @foxer360/auth-dashboard add",
+    "add:server": "yarn workspace @foxer360/auth-server add",
     "deploy": "yarn workspace @foxer360/auth-server run deploy",
     "docker": "sudo docker-compose up --force-recreate -d",
     "docker:down": "sudo docker-compose down",
