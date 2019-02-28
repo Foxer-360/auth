@@ -6,3 +6,6 @@ database
 
 # Local configurations
 .env
+
+# Ignore log files
+yarn-error.log

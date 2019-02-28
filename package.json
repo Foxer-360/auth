@@ -13,7 +13,9 @@
     "docker:down": "sudo docker-compose down",
     "docker:list": "sudo docker-compose ps",
     "start:dashboard": "yarn workspace @foxer360/auth-dashboard run start",
-    "start:server": "yarn workspace @foxer360/auth-server run start"
+    "start:server": "yarn workspace @foxer360/auth-server run start",
+    "remove:dashboard": "yarn workspace @foxer360/auth-dashboard remove",
+    "remove:server": "yarn workspace @foxer360/auth-server remove"
   },
   "private": true,
   "workspaces": ["dashboard", "server"]
