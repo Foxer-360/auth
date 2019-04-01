@@ -14,7 +14,7 @@ services:
       - ./database:/var/lib/postgresql/data
   # Prisma Service from official prisma library
   prisma:
-    image: prismagraphql/prisma:1.26
+    image: prismagraphql/prisma:1.30-beta
     restart: always
     ports:
       - 4467:4467
