@@ -12,10 +12,13 @@
     "docker": "sudo docker-compose up --force-recreate -d",
     "docker:down": "sudo docker-compose down",
     "docker:list": "sudo docker-compose ps",
-    "start:dashboard": "yarn workspace @foxer360/auth-dashboard run start",
-    "start:server": "yarn workspace @foxer360/auth-server run start",
+    "prisma:export": "yarn workspace @foxer360/auth-server run prisma:export",
+    "prisma:reset": "yarn workspace @foxer360/auth-server run prisma:reset",
+    "prisma:seed": "yarn workspace @foxer360/auth-server run prisma:seed",
     "remove:dashboard": "yarn workspace @foxer360/auth-dashboard remove",
-    "remove:server": "yarn workspace @foxer360/auth-server remove"
+    "remove:server": "yarn workspace @foxer360/auth-server remove",
+    "start:dashboard": "yarn workspace @foxer360/auth-dashboard run start",
+    "start:server": "yarn workspace @foxer360/auth-server run start"
   },
   "private": true,
   "workspaces": ["dashboard", "server"]
