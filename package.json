@@ -1,6 +1,6 @@
 {
   "name": "@foxer360/auth",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Authorization system for the Foxer360 system.",
   "repository": "git@github.com:Foxer-360/auth.git",
   "author": "Filip Suchý <nevim42@gmail.com>",
